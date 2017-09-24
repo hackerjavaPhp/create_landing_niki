@@ -7,7 +7,7 @@
 	font-family: 'Academy Italic', arial;
 }
 
-html { overflow-x: hidden}
+/*html { overflow-x: hidden}*/
 
 body
 {
@@ -95,6 +95,11 @@ header .phone span
 header .phone span:last-child
 {
 	margin-left:44px;
+}
+
+.ots
+{
+	display: none
 }
 
 /* header */
@@ -741,6 +746,6 @@ footer .phone span:last-child
 	width: 800px;
 	background: url(img/polot.png);
 	z-index: 3;
-	right: -130px;
+	right: -150px;
 	top:-20px
 }

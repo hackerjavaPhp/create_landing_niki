@@ -1,0 +1,449 @@
+/*++++++++++++++++++++++++++++header+++++++++++++++++++++++++++++*/
+
+@media screen and (min-width: 724px) and (max-width: 1188px)
+{
+	header .container
+	{
+		width: 100%;
+	}
+	header 
+	{
+		/*background: green*/
+	}
+}
+
+@media screen and (min-width: 410px) and (max-width: 724px)
+{
+	header .container
+	{
+		width: 100%;
+	}
+
+	header 
+	{
+		height:220px;
+		/* background:green */
+	}
+
+	header .logo
+	{
+		width: 270px;
+		height: 120px;
+		margin: 0 auto
+	}
+
+	/* phone */
+
+
+	header .phone
+	{
+		margin-top:30px;
+		width: 100%;
+		/* background: red; */
+		text-align: center;
+	}
+
+	header .phone span
+	{
+		color:#a1b1bc;
+		font-size: 18px;
+	}
+
+	header .phone span:last-child
+	{
+		margin-left:44px;
+	}
+
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 410px)
+{
+	header .container
+	{
+		width: 100%;
+	}
+
+	header 
+	{
+		height:220px;
+		/* background:green */
+	}
+
+	header .logo
+	{
+		width: 270px;
+		height: 120px;
+		margin: 0 auto
+	}
+
+	/* phone */
+
+
+	header .phone
+	{
+		margin-top:30px;
+		width: 100%;
+		/* background: red; */
+		text-align: center;
+	}
+
+	header .phone span
+	{
+		color:#a1b1bc;
+		font-size: 18px;
+	}
+
+	header .phone span:last-child
+	{
+		margin-left:0px;
+	}
+
+	.ots
+	{
+		display: inline;
+	}
+
+}
+
+
+/*++++++++++++++++++++++++++++service_1+++++++++++++++++++++++++++++*/
+
+@media screen and (min-width: 960px) and (max-width: 1188px)
+{
+
+		#service_1
+		{
+			/* background: red */
+		}
+
+		#service_1 .container
+		{
+			width: 100%
+		}
+
+		/* block text-room && photo-room */
+
+		#service_1 .text-room
+		{
+			/* background: blue */
+		}
+
+		#service_1 .photo-room
+		{
+			/* background: green */
+		}
+
+		#service_1 .photo-room img
+		{
+			width: 95%;
+			position: relative;
+			margin-left: 7px;
+			margin-top:14px;
+		}
+
+
+
+}
+
+
+@media screen and (min-width: 611px) and (max-width: 960px)
+{
+
+		#service_1
+		{
+			/*background: red; */
+			height: 980px
+		}
+
+		#service_1 .container
+		{
+			 width: 593.5px;
+			margin: 0 auto
+		}
+
+		/* block text-room && photo-room */
+
+		#service_1 .text-room , #service_1 .photo-room
+		{
+			width: 593.5px;
+			height:530px;
+			margin: 0 auto
+		}
+
+		#service_1 .text-room
+		{
+			/* background: blue; */
+			float: left;
+		}
+
+		#service_1 .photo-room
+		{
+			/* background: green; */
+			float: left;
+			height: 450px
+		}
+
+		#service_1 .photo-room img
+		{
+			width: 82%;
+			position: relative;
+			margin: 0 auto;
+			top:10px;
+			left: 51.5px
+		}
+
+
+		/* text-room */
+
+		#service_1 .text-room *
+		{
+			text-align: center;
+		}
+}
+
+
+@media screen and (min-width: 417px) and (max-width:  611px)
+{
+		#service_1
+		{
+			/* background: red; */ 
+			height: 960px
+		}
+
+		#service_1 .container
+		{
+			 width: 400px;
+			margin: 0 auto
+		}
+
+		/* block text-room && photo-room */
+
+		#service_1 .text-room , #service_1 .photo-room
+		{
+			width: 100%;
+			height:650px;
+			margin: 0 auto
+		}
+
+		#service_1 .text-room h2
+		{
+			margin-top:10px;
+		}
+
+		#service_1 .text-room
+		{
+			/* background: blue; */
+			float: left;
+		}
+
+		#service_1 .photo-room
+		{
+			/* background: green; */
+			float: left;
+			height: 310px
+		}
+
+		#service_1 .photo-room img
+		{
+			width: 82%;
+			position: relative;
+			margin: 0 auto;
+			top:10px;
+			left: 35px
+		}
+
+
+		/* text-room */
+
+		#service_1 .text-room *
+		{
+			text-align: center;
+		}
+		#service_1 .text-room p
+		{
+			text-align: left;
+			margin-left: 25px
+		}
+}
+
+@media screen and (min-width: 300px) and (max-width:  417px)
+{
+	#service_1
+		{
+			/*background: red; */
+			height: 900px
+		}
+
+		#service_1 .container
+		{
+			 width: 300px;
+			margin: 0 auto
+		}
+
+		/* block text-room && photo-room */
+
+		#service_1 .text-room , #service_1 .photo-room
+		{
+			width: 100%;
+			height:650px;
+			margin: 0 auto
+		}
+
+		#service_1 .text-room h2
+		{
+			margin-top:10px;
+			font-size: 30px
+		}
+
+		#service_1 .text-room
+		{
+			/*background: blue; */
+			float: left;
+		}
+
+		#service_1 .photo-room
+		{
+			/* background: green; */ 
+			float: left;
+			height: 240px;
+		}
+
+		#service_1 .photo-room img
+		{
+			width: 82%;
+			position: relative;
+			margin: 0 auto;
+			top:10px;
+			left: 30px
+		}
+
+
+		/* after null line */ 
+
+		.text-room h3:after
+		{
+			content:"";
+			display: inline;
+		}
+
+
+		/* text-room */
+
+		#service_1 .text-room *
+		{
+			text-align: center;
+		}
+		#service_1 .text-room p
+		{
+			text-align: left;
+			margin-left: 25px
+		}
+
+
+		/* line 637 in file style.css */
+
+		.clean_link:after
+		{
+			content: "";
+			display: none
+		}
+}
+
+
+
+
+/*++++++++++++++++++++++++++++service_2+++++++++++++++++++++++++++++*/
+
+
+@media screen and (min-width: 622px) and (max-width: 1188px)
+{
+	#service_2
+	{
+		height: 190px
+	}
+
+	#service_2 .container
+	{
+		width: 100%
+	}
+
+
+	/* fon */
+
+	/* line 637 in file style.css */
+
+	.container_jump:before
+	{
+		content: "";
+		display: none
+	}
+
+	/*quotes && кавычки */
+
+	#service_2 p:after
+		{
+			content: "";
+			display: none;
+		}
+
+		#service_2 p:before
+		{
+			content: "";
+			display: none
+		}
+
+	#service_2 p
+	{
+		padding-top: 50px
+	}
+}
+
+@media screen and (min-width: 300px) and (max-width: 622px)
+{
+		#service_2
+	{
+		height: 250px;
+	}
+
+	#service_2 .container
+	{
+		width: 100%
+	}
+
+
+	/* fon */
+
+	/* line 637 in file style.css */
+
+	.container_jump:before
+	{
+		content: "";
+		display: none
+	}
+
+	/*quotes && кавычки */
+
+	#service_2 p:after
+		{
+			content: "";
+			display: none;
+		}
+
+		#service_2 p:before
+		{
+			content: "";
+			display: none
+		}
+
+	#service_2 p
+	{
+		padding-top: 7px;
+		text-align:left;
+		margin-left: 50px;
+		margin-right: 21px
+	}
+}
+
+/*++++++++++++++++++++++++++++service_3+++++++++++++++++++++++++++++*/
+
