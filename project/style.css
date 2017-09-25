@@ -438,6 +438,8 @@ header .phone span:last-child
 	height: 16px;
 	background:url(img/time.png);
 	display: inline-block;
+	position: relative;
+	top:2.2px;
 }
 
 #service_5 .table-div .tab_div .price_massagia

@@ -6,6 +6,7 @@
 		<meta name = "viewport" content="width=device-width , initial-scale=1.0"/>
 		<link rel="stylesheet" href = "style.css" type = "text/css">
 		<link rel="stylesheet" type="text/css" href="style_media.css">
+		<link rel="stylesheet" type="text/css" href="style_img_gray.css">
 	</head>
 	<body>
 		<div id = "wraper">
@@ -352,7 +353,49 @@
 			</footer>
 		</div>
 		<script>
+
 			
+
+			if(document.body.clientWidth > 1171)
+			{
+
+			var girl = document.querySelector('.girl_1');
+				girl.onmouseover = function()
+				{
+					var gra_img = document.querySelector('.girl_1 .photo-girl img');
+					gra_img.style.filter = ' grayscale(0%)';
+				}
+
+				girl.onmouseout = function()
+				{
+					var gra_img = document.querySelector('.girl_1 .photo-girl img');
+					gra_img.style.filter = ' grayscale(100%)';
+				}
+
+		var girl = document.querySelector('.girl_2');
+				girl.onmouseover = function()
+				{
+					var gra_img = document.querySelector('.girl_2 .photo-girl img');
+					gra_img.style.filter = ' grayscale(0%)';
+				}
+
+				girl.onmouseout = function()
+				{
+					var gra_img = document.querySelector('.girl_2 .photo-girl img');
+					gra_img.style.filter = ' grayscale(100%)';
+				}
+
+			}
+			else
+			{
+				var gra_img = document.querySelector('.girl_1 .photo-girl img');
+					gra_img.style.filter = ' grayscale(0%)';
+
+				var gra_img = document.querySelector('.girl_2 .photo-girl img');
+					gra_img.style.filter = ' grayscale(0%)';	
+			}
+
+
 		</script>
 	</body>
 </html>
