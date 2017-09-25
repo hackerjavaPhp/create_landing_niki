@@ -159,7 +159,7 @@
 
 /*++++++++++++++++++++++++++++service_1+++++++++++++++++++++++++++++*/
 
-@media screen and (min-width: 960px) and (max-width: 1188px)
+@media screen and (min-width: 980px) and (max-width: 1188px)
 {
 
 		#service_1
@@ -197,7 +197,7 @@
 }
 
 
-@media screen and (min-width: 611px) and (max-width: 960px)
+@media screen and (min-width: 611px) and (max-width: 980px)
 {
 
 		#service_1
@@ -755,19 +755,468 @@
 {
 	#service_4 
 	{
-		background: red;
-		height: 1600px
+		/* background: red; */
+		height: 1050px
+	}
+	#service_4 .container
+	{
+		 /* background: black; */
+		 width: 700.5px;
+			margin: 0 auto
+	}
+
+	#service_4 .container h2
+	{
+		text-align: center;
+		font-size: 40px
+	}
+
+	#service_4 .girl_1 , #service_4 .girl_2
+	{
+		width: 699.5px;
 	}
 
 	#service_4 .girl_1
 	{
-		background: green;
-		float: left;
+		/* background: green; */
+		float: right;
 	}
 
 	#service_4 .girl_2
 	{
-		background: blue;
-		float: left;
+		/* background: blue; */ 
+		float: right;
+		margin-top:127px;
+	}
+
+	.container_jump_3:after
+	{
+		content: "";
+		display: none
+	}
+}
+
+@media screen and (min-width: 410px) and (max-width: 724px)
+{
+	#service_4 
+	{
+		/* background: blue; */
+		height: 1040px
+	}
+	#service_4 .container
+	{
+		 width: 410px;
+			margin: 0 auto
+	}
+
+	#service_4 .container h2
+	{
+		text-align: center;
+		font-size: 40px
+	}
+
+	#service_4 .girl_1 , #service_4 .girl_2
+	{
+		width: 410px;
+	}
+
+	#service_4 .girl_1
+	{
+		/* background: green; */
+		float: right;
+	}
+
+	#service_4 .girl_2
+	{
+		/* background: blue; */
+		float: right;
+		margin-top:80px;
+	}
+
+	#service_4 .photo-girl img
+	{
+		height: 350px;
+		position: relative;
+		right: 25px
+	}
+
+	.container_jump_3:after
+	{
+		content: "";
+		display: none
+	}
+}
+
+@media screen and (min-width: 300px) and (max-width: 410px)
+{
+	#service_4 
+	{
+		/* background: red; */
+		height: 1050px
+	}
+	#service_4 .container
+	{
+		 width: 300px;
+			margin: 0 auto
+	}
+
+	/*------------------*/
+
+	#service_4 .container h2
+	{
+		text-align: center;
+		font-size: 40px
+	}
+
+	#service_4 .girl_1 , #service_4 .girl_2
+	{
+		width: 290px;
+		/* background-color: green */
+	}
+
+	#service_4 .girl_1
+	{
+		/* background: green; */
+		float: right;
+	}
+
+	#service_4 .girl_2
+	{
+		/* background: blue; */
+		float: right;
+		margin-top:80px;
+	}
+
+	/*------img--h2--p-----*/
+
+	#service_4 .photo-girl img
+	{
+		display: none
+	}
+
+	#service_4 .photo-girl 
+	{
+		display: none
+	}
+
+
+	#service_4 .text-girl 
+	{
+		text-align: center;
+	}
+
+	#service_4  h4
+	{
+		position: relative;
+		bottom: 40px;
+		left: 30px
+	}
+
+	#service_4 .text-girl p
+	{
+		width: 100%;
+		position: relative;
+		left: 27px
+	}
+
+	.container_jump_3:after
+	{
+		content: "";
+		display: none
+	}
+
+}
+
+
+/*++++++++++++++++++++++++++++service_5+++++++++++++++++++++++++++++*/
+
+@media screen and (min-width: 724px) and (max-width: 1188px)
+{
+	#service_5
+	{
+	    /* background: red; */
+		height: 680px
+	}
+
+	#service_5 .container
+	{
+		width: 720px
+	}
+
+	#service_5 h2
+	{
+		text-align: center;
+	}
+
+	#service_5 .table-div
+	{
+		/* background-color: orange; */
+		width: 720px;
+		height:550px
+	}
+
+	#service_5 .table-div .tab_div
+	{
+		/* background-color: purple; */
+		width:315px; 
+		margin-left: 24px
+	}
+
+	/* update */
+
+
+	#service_5 .table-div .tab_div .price_massagia span
+	{
+	font-size: 50px;
+	position: relative;
+	left: 20px;
+	}
+
+	#service_5 .table-div .tab_div .price_massagia span:after
+	{
+	content:'BYN';
+	font-size: 13px;
+	position: absolute;
+	top:5px;
+	right:-28px;
+	color: #74452b
+	}
+
+	
+	#service_5 .table-div .tab_div .min_massagia , 
+	#service_5 .table-div .tab_div .min_massagia:before
+	{
+	content: "";
+	display: none;
+	}
+}
+
+@media screen and (min-width: 410px) and (max-width: 724px)
+{
+	#service_5
+	{
+	   /* background: red; */
+		height: 1200px
+	}
+
+	#service_5 .container
+	{
+		width: 410px
+	}
+
+	#service_5 h2
+	{
+		text-align: center;
+	}
+
+	#service_5 .table-div
+	{
+		/* background-color: orange; */
+		width: 410px;
+		height:550px
+	}
+
+	#service_5 .table-div .tab_div
+	{
+		/* background-color: purple; */
+		width:355px; 
+		margin-left: 24px
+	}
+
+	/* update */
+
+
+	#service_5 .table-div .tab_div .price_massagia span
+	{
+	font-size: 50px;
+	position: relative;
+	left: 20px;
+	}
+
+	#service_5 .table-div .tab_div .price_massagia span:after
+	{
+	content:'BYN';
+	font-size: 13px;
+	position: absolute;
+	top:5px;
+	right:-28px;
+	color: #74452b
+	}
+
+	
+	#service_5 .table-div .tab_div .min_massagia , 
+	#service_5 .table-div .tab_div .min_massagia:before
+	{
+	content: "";
+	display: none;
+	}
+	
+}
+
+@media screen and (min-width: 300px) and (max-width: 410px)
+{
+	#service_5
+	{
+	  /*  background: red; */
+		height: 1220px
+	}
+
+	#service_5 .container
+	{
+		width: 300px
+	}
+
+	#service_5 h2
+	{
+		text-align: center;
+
+	}
+
+	#service_5 .table-div
+	{
+		/* background-color: orange; */
+		width: 300px;
+		height:1050px
+	}
+
+	#service_5 .table-div .tab_div
+	{
+		/* background-color: purple; */
+		width:299px; 
+		margin-left: 0px
+	}
+
+	/* update */
+
+
+	#service_5 .table-div .tab_div .price_massagia span
+	{
+	font-size: 50px;
+	position: relative;
+	left: 20px;
+	}
+
+	#service_5 .table-div .tab_div .price_massagia span:after
+	{
+	content:'BYN';
+	font-size: 13px;
+	position: absolute;
+	top:5px;
+	right:-28px;
+	color: #74452b
+	}
+
+	
+	#service_5 .table-div .tab_div .min_massagia , 
+	#service_5 .table-div .tab_div .min_massagia:before
+	{
+	content: "";
+	display: none;
+	}
+}
+
+
+/*++++++++++++++++++++++++++++service_6+++++++++++++++++++++++++++++*/
+
+
+@media screen and (min-width: 724px) and (max-width: 1188px)
+{
+
+	#service_6
+	{
+		height: 185px;
+		/* background-color: red */
+	}
+
+	#service_6 .container
+	{
+		width: 505px;
+		/* background-color: black; */
+		text-align: center;
+	}
+
+	.container_jump_4
+	{
+		padding-top:0px;
+	}
+
+	.container_jump_4:after
+	{
+		content: "";
+		display: none
+	}
+
+}
+
+@media screen and (min-width: 410px) and (max-width: 724px)
+{
+	#service_6
+	{
+		height: 175px;
+		/* background-color: red; */
+	}
+
+	#service_6 .container
+	{
+		width: 410px;
+		/* background-color: black; */
+		text-align: center;
+	}
+
+	#service_6 h3:after
+	{
+		content:"";
+		display: inline;
+		position: relative;
+	}
+
+	.container_jump_4
+	{
+		padding-top:0px;
+	}
+
+	.container_jump_4:after
+	{
+		content: "";
+		display: none
+	}
+}
+
+@media screen and (min-width: 300px) and (max-width: 410px)
+{
+	#service_6
+	{
+		height: 175px;
+		/* background-color: red; */
+	}
+
+	#service_6 .container
+	{
+		width: 300px;
+		/* background-color: black; */ 
+		text-align: center;
+	}
+
+	#service_6 h3:after
+	{
+		content:"";
+		display: inline;
+	}
+
+	.container_jump_4
+	{
+		padding-top:0px;
+	}
+
+	.container_jump_4:after
+	{
+		content: "";
+		display: none
+	}
+
+	.clean_link_3:after
+	{
+		content: "";
+		display: none;
 	}
 }
