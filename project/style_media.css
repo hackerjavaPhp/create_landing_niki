@@ -1043,6 +1043,13 @@
 		width:315px; 
 		margin-left: 24px
 	}
+	#service_5 .table-div .tab_div .text_massagia
+	{
+		/* background-color: purple; */
+		font-size: 16.5px
+	}
+
+
 
 	/* update */
 
@@ -1065,12 +1072,6 @@
 	}
 
 	
-	#service_5 .table-div .tab_div .min_massagia , 
-	#service_5 .table-div .tab_div .min_massagia:before
-	{
-	content: "";
-	display: none;
-	}
 }
 
 @media screen and (min-width: 410px) and (max-width: 724px)
@@ -1124,14 +1125,6 @@
 	right:-28px;
 	color: #74452b
 	}
-
-	
-	#service_5 .table-div .tab_div .min_massagia , 
-	#service_5 .table-div .tab_div .min_massagia:before
-	{
-	content: "";
-	display: none;
-	}
 	
 }
 
@@ -1153,6 +1146,7 @@
 		text-align: center;
 
 	}
+
 
 	#service_5 .table-div
 	{
@@ -1188,13 +1182,13 @@
 	color: #74452b
 	}
 
-	
-	#service_5 .table-div .tab_div .min_massagia , 
-	#service_5 .table-div .tab_div .min_massagia:before
+	#service_5 .table-div .tab_div .text_massagia
 	{
-	content: "";
-	display: none;
+		/* background-color: purple; */
+		font-size: 15.5px
 	}
+
+
 }
 
 
