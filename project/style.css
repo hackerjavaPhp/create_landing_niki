@@ -376,7 +376,8 @@ header .phone span:last-child
 /* service_5 */
 #service_5
 {
-	height: 730px;
+	/* background-color: red; */
+	 height: 500px;
 }
 
 
@@ -556,6 +557,26 @@ header .phone span:last-child
 	margin-left: 25px
 }
 
+
+#service_7 .text_lo .box_percentages
+{
+	position: relative;
+}
+
+
+#service_7 .text_lo .box_percentages:after
+{
+	content:"";
+	display: inline-block;
+	height: 2px;
+	width: 90px;
+	background:#74452b;
+	position: absolute;
+	bottom:197px;
+	left: 240px;
+}
+
+
 #service_7 .text_lo .box_percentages
 {
 	width: 50%;
@@ -722,10 +743,10 @@ footer .phone span:last-child
 	content: "";
 	position: absolute;
 	height: 240px;
-	width: 800px;
+	width: 625px;
 	background: url(img/chaino.png);
 	z-index: 3;
-	left: -565px;
+	left: -355px;
 	top:504px;
 }
 
@@ -749,4 +770,3 @@ footer .phone span:last-child
 	right: -150px;
 	top:-20px
 }
-
