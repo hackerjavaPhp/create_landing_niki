@@ -376,7 +376,8 @@ header .phone span:last-child
 /* service_5 */
 #service_5
 {
-	height: 730px;
+	/* background-color: red; */
+	 height: 500px;
 }
 
 
@@ -749,4 +750,3 @@ footer .phone span:last-child
 	right: -150px;
 	top:-20px
 }
-
