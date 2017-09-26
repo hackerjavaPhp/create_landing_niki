@@ -61,29 +61,39 @@ header
 	height: 151px;
 }
 
-header img
+header a:first-child
 {
-	margin-top: 40px;
-	margin-right:17px
+	margin-right:12px;
+	display: inline-block;
+	position: relative;
+	top:37px;
+	right: 5px
 }
 
-header img:first-child
+header a
 {
-	margin-top: 11px;
-	margin-left: 0px;
-	margin-right:38px;
+	margin-right:12px;
+	display: inline-block;
+	position: relative;
+	top:17px;
 }
+
 
 header img:last-child
 {
 	margin-right:0px;
 }
 
+.logo
+{
+	float: left;
+	height: 140px
+}
 /* phone */
 
 header .phone
 {
-	margin-top: 45px;
+	margin-top: 65px;
 }
 
 header .phone span
@@ -614,34 +624,45 @@ header .phone span:last-child
 
 /* service_7 */
 
-/* footer */
 footer
 {
-	height:230px;
-	background-color: black;
+	height: 181px;
+	background-color: black
 }
 
-footer img
+footer a:first-child
 {
-	margin-top: 110px;
-	margin-right:17px
+	margin-right:12px;
+	display: inline-block;
+	position: relative;
+	top:37px;
+	right: 5px
 }
 
-footer img:first-child
+footer a
 {
-	margin-top: 70px;
-	margin-left: 0px;
-	margin-right:38px;
+	margin-right:12px;
+	display: inline-block;
+	position: relative;
+	top:17px;
 }
+
 
 footer img:last-child
 {
 	margin-right:0px;
 }
 
+.logo
+{
+	float: left;
+	height: 140px
+}
+/* phone */
+
 footer .phone
 {
-	margin-top: 110px;
+	margin-top: 65px;
 }
 
 footer .phone span
@@ -655,9 +676,20 @@ footer .phone span:last-child
 	margin-left:44px;
 }
 
+.ots
+{
+	display: none
+}
+
+/* header */
+
+/* header */
+
 /*---------------------------------------------------------------------------------------------------*/
 
 /* update button and other */
+
+/*
 
 .clean_link:after
 {
@@ -682,6 +714,34 @@ footer .phone span:last-child
 	border-bottom: 2px dotted #ccc;
 	color:#ccc;
 }
+
+*/
+
+.clean_link a
+{
+	color:#a1b1bc;
+	border-bottom:1.3px dotted;
+	text-decoration: none;
+	margin-left: 20px
+}
+
+.clean_link_2 a
+{
+	color:#a1b1bc;
+	border-bottom:1.3px dotted;
+	text-decoration: none;
+	margin-left: 20px
+}
+
+.clean_link_3 a
+{
+	color:#a1b1bc;
+	border-bottom:1.3px dotted;
+	text-decoration: none;
+	margin-left: 20px
+}
+
+
 
 /* Галочка */
 

@@ -2,161 +2,119 @@
 
 @media screen and (min-width: 724px) and (max-width: 1188px)
 {
+	header
+	{
+		/* background-color: orange */
+	}
+	
 	header .container
 	{
-		width: 100%;
+		width: 724px;
+		margin: 0 auto
 	}
-	header 
+	header .logo
 	{
-		/*background: green*/
+	 	/* background-color: red; */
+		width: 40%;
+		text-align: center;
 	}
+
+	header  .phone
+	{
+		/* background-color: black; */
+		width: 30%;
+		text-align: center;
+	}
+
+	header .phone span:last-child
+	{
+		margin-left: 0px
+	}
+
 
 }
 
 @media screen and (min-width: 410px) and (max-width: 724px)
 {
+	header
+	{
+		/* background-color: orange */
+	}
+
 	header .container
 	{
-		width: 100%;
-	}
-
-	header 
-	{
-		height:220px;
-		/* background:green */
-	}
-
-	header .logo
-	{
-		width: 270px;
-		height: 120px;
+		width: 410px;
 		margin: 0 auto
 	}
-
-	/* phone */
-
-
-	header .phone
+	header .logo
 	{
-		margin-top:30px;
-		width: 100%;
-		/* background: red; */
+		/* background-color: red; */
+		width:70%;
+		text-align: center;
+	}
+
+	header  .phone
+	{
+		/* background-color: black; */
+		width: 30%;
 		text-align: center;
 	}
 
 	header .phone span
 	{
-		color:#a1b1bc;
-		font-size: 18px;
+		font-size: 15px
 	}
 
 	header .phone span:last-child
 	{
-		margin-left:44px;
+		margin-left: 0px
 	}
-
 }
-
 
 @media screen and (min-width: 300px) and (max-width: 410px)
 {
+	header
+	{
+		/* background-color: orange; */
+		height: 250px
+	}
+
 	header .container
 	{
-		width: 100%;
-	}
-
-	header 
-	{
-		height:220px;
-		/* background:green */
-	}
-
-	header .logo
-	{
-		width: 270px;
-		height: 120px;
+		width: 300px;
 		margin: 0 auto
 	}
-
-	/* phone */
-
-
-	header .phone
+	header .logo
 	{
-		margin-top:30px;
+		/* background-color: red; */
 		width: 100%;
-		/* background: red; */
 		text-align: center;
+	}
+
+	header  .phone
+	{
+		/* background-color: black;*/
+		width: 100%;
+		text-align: center;
+		float: left;
 	}
 
 	header .phone span
 	{
-		color:#a1b1bc;
-		font-size: 18px;
+		font-size: 15px
 	}
 
 	header .phone span:last-child
 	{
-		margin-left:0px;
+		margin-left: 0px
 	}
-
-	.ots
-	{
-		display: inline;
-	}
-
-}
-
-
-@media screen and (min-width: 300px) and (max-width: 410px)
-{
-	header .container
-	{
-		width: 100%;
-	}
-
-	header 
-	{
-		height:220px;
-		/* background:green */
-	}
-
-	header .logo
-	{
-		width: 270px;
-		height: 120px;
-		margin: 0 auto
-	}
-
-	/* phone */
-
 
 	header .phone
 	{
 		margin-top:30px;
-		width: 100%;
-		/* background: red; */
-		text-align: center;
+		font-size: 24px
 	}
-
-	header .phone span
-	{
-		color:#a1b1bc;
-		font-size: 18px;
-	}
-
-	header .phone span:last-child
-	{
-		margin-left:0px;
-	}
-
-	.ots
-	{
-		display: inline;
-	}
-
 }
-
 
 /*++++++++++++++++++++++++++++service_1+++++++++++++++++++++++++++++*/
 
@@ -344,8 +302,8 @@
 {
 	#service_1
 		{
-			/*background: red; */
-			height: 900px
+			/* background: red; */
+			height: 950px
 		}
 
 		#service_1 .container
@@ -426,6 +384,21 @@
 			margin-left: 25px
 		}
 
+		.clean_link
+		{
+			position: relative;
+		}
+
+		.clean_link a
+		{
+			color:#a1b1bc;
+			border-bottom:1.3px dotted;
+			text-decoration: none;
+			margin-left:0;
+			position: absolute;
+			left: 104px;
+			bottom: -20px
+		}
 
 		/* line 637 in file style.css */
 
@@ -803,6 +776,22 @@
 		content: "";
 		display: none
 	}
+
+	.clean_link_2
+		{
+			position: relative;
+		}
+
+		.clean_link_2 a
+		{
+			color:#a1b1bc;
+			border-bottom:1.3px dotted;
+			text-decoration: none;
+			margin-left:0;
+			position: absolute;
+			left: 104px;
+			bottom: -20px
+		}
 
 	/* line 637 in file style.css */
 	.clean_link_2:after
@@ -1330,6 +1319,22 @@
     bottom: -10px;
     left: 103.5px
 	}
+
+	.clean_link_3
+		{
+			position: relative;
+		}
+
+		.clean_link_3 a
+		{
+			color:#a1b1bc;
+			border-bottom:1.3px dotted;
+			text-decoration: none;
+			margin-left:0;
+			position: absolute;
+			left: 114px;
+			bottom: -20px
+		}
 }
 
 /*++++++++++++++++++++++++++++service_7+++++++++++++++++++++++++++++*/
@@ -1665,145 +1670,122 @@
 		}
 }
 
-/*------------------foter-----------------------*/
 
-
+/*++++++++++++++++++++++++++++footer+++++++++++++++++++++++++++++*/
 @media screen and (min-width: 724px) and (max-width: 1188px)
 {
+	footer
+	{
+		/* background-color: orange */
+	}
+	
 	footer .container
 	{
-		width: 100%;
+		width: 724px;
+		margin: 0 auto
 	}
-	footer 
+	footer .logo
 	{
-		/* background: green */
+	 	/* background-color: red; */
+		width: 40%;
+		text-align: center;
 	}
+
+	footer  .phone
+	{
+		/* background-color: black; */
+		width: 30%;
+		text-align: center;
+	}
+
+	footer .phone span:last-child
+	{
+		margin-left: 0px
+	}
+
+
 }
 
 @media screen and (min-width: 410px) and (max-width: 724px)
 {
+	footer
+	{
+		/* background-color: orange */
+	}
 
 	footer .container
 	{
-		width: 100%;
+		width: 410px;
+		margin: 0 auto
 	}
-
-	footer 
+	footer .logo
 	{
-		height:220px;	
-	}
-
-	footer .footer_logo_social
-	{
-		width: 100%;
-		height: 120px;
-		margin: 0 auto;
-		/* background-color: green; */
+		/* background-color: red; */
+		width:70%;
 		text-align: center;
 	}
 
-	footer .footer_logo_social img:first-child
+	footer  .phone
 	{
-		margin-top: 10px;
-		margin-right:38px;
-		margin-left: 70px
-	}
-
-	footer .footer_logo_social img
-	{
-		display: inline-block;
-		margin-top: 50px;
-	}
-
-	/* phone */
-
-
-	footer .phone
-	{
-		margin-top:70px;
-		width: 100%;
-		/* background: red; */
+		/* background-color: black; */
+		width: 30%;
 		text-align: center;
 	}
 
 	footer .phone span
 	{
-		color:#a1b1bc;
-		font-size: 18px;
+		font-size: 15px
 	}
 
 	footer .phone span:last-child
 	{
-		margin-left:44px;
+		margin-left: 0px
 	}
-
 }
 
 @media screen and (min-width: 300px) and (max-width: 410px)
 {
+	footer
+	{
+		/* background-color: orange; */
+		height: 250px
+	}
+
 	footer .container
 	{
-		width: 100%;
+		width: 300px;
+		margin: 0 auto
 	}
-
-	footer 
+	footer .logo
 	{
-		height:240px;	
-	}
-
-	footer .footer_logo_social
-	{
+		/* background-color: red; */
 		width: 100%;
-		height: 120px;
-		margin: 0 auto;
-	/*	background-color: green; */
 		text-align: center;
 	}
 
-	footer .footer_logo_social img:first-child
+	footer  .phone
 	{
-		margin-top: 10px;
-		margin-right:33px;
-		margin-left: 30px
-	}
-
-	footer .footer_logo_social img
-	{
-		display: inline-block;
-		margin-top: 50px;
-	}
-
-	/* phone */
-
-
-	footer .phone
-	{
-		margin-top:40px;
+		/* background-color: black;*/
 		width: 100%;
-		/* background: red; */
 		text-align: center;
+		float: left;
 	}
 
 	footer .phone span
 	{
-		color:#a1b1bc;
-		font-size: 18px;
+		font-size: 15px
 	}
 
 	footer .phone span:last-child
 	{
-		margin-left:24px;
+		margin-left: 0px
 	}
 
-	footer .phone span:last-child
+	footer .phone
 	{
-		margin-left:0px;
+		margin-top:30px;
+		font-size: 24px
 	}
-
-
-	.ots
-	{
-		display: inline;
-	}
-
 }
+
+
