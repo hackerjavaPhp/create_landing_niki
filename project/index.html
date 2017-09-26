@@ -355,49 +355,43 @@
 			
 		</div>
 		<script>
-
 			
-
 			if(document.body.clientWidth > 1171)
 			{
-
 			var girl = document.querySelector('.girl_1');
 				girl.onmouseover = function()
 				{
 					var gra_img = document.querySelector('.girl_1 .photo-girl img');
 					gra_img.style.filter = ' grayscale(0%)';
+					gra_img.style.transition = 'all 0.5s ease';
 				}
-
 				girl.onmouseout = function()
 				{
 					var gra_img = document.querySelector('.girl_1 .photo-girl img');
 					gra_img.style.filter = ' grayscale(100%)';
+					gra_img.style.transition = 'all 0.5s ease';
 				}
-
 		var girl = document.querySelector('.girl_2');
 				girl.onmouseover = function()
 				{
 					var gra_img = document.querySelector('.girl_2 .photo-girl img');
 					gra_img.style.filter = ' grayscale(0%)';
+					gra_img.style.transition = 'all 0.5s ease';
 				}
-
 				girl.onmouseout = function()
 				{
 					var gra_img = document.querySelector('.girl_2 .photo-girl img');
 					gra_img.style.filter = ' grayscale(100%)';
+					gra_img.style.transition = 'all 0.5s ease';
 				}
-
 			}
 			else
 			{
 				var gra_img = document.querySelector('.girl_1 .photo-girl img');
 					gra_img.style.filter = ' grayscale(0%)';
-
 				var gra_img = document.querySelector('.girl_2 .photo-girl img');
 					gra_img.style.filter = ' grayscale(0%)';	
 			}
-
-
 		</script>
 	</body>
 </html>

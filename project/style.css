@@ -1,3 +1,36 @@
+/*+++++++++++++defaunt options+++++++++++++++++*/
+
+/* 
+	Plan my file
+
+	0.options
+
+	1.header
+
+	2.service_1
+
+	3.service_2
+
+	4.service_3
+
+	5.service_4
+
+	6.service_5
+
+	7.service_6
+
+	8.service_7
+
+	9.footer
+
+	10.Addition || update for file
+*/
+
+
+
+
+
+
 @import url(http://allfont.ru/allfont.css?fonts=academy-italic);
 
 *
@@ -15,7 +48,7 @@ body
 }
 
 
-/************************************************/
+/******************My options for file********************/
 
 .left
 {
@@ -50,9 +83,7 @@ body
 
 
 
-/************************************************/
-
-/* header */
+/********************Header*************************/
 
 /* logo and social */
 
@@ -107,6 +138,7 @@ header .phone span:last-child
 	margin-left:44px;
 }
 
+/* tag br have class = "ots" */
 .ots
 {
 	display: none
@@ -114,7 +146,7 @@ header .phone span:last-child
 
 /* header */
 
-/* service_1 */
+/*+++++++++++++++++++service_1++++++++++++++++++++++++++++*/
 
 #service_1
 {
@@ -187,7 +219,7 @@ header .phone span:last-child
 	left: 15px
 }
 
-/* service_1 */
+/*++++++++++++++++++++++++service_1++++++++++++++++++++++++*/
 
 /* service_2 */
 
@@ -226,9 +258,9 @@ header .phone span:last-child
 
 
 
-/* service_2 */
+/*+++++++++++++++++++++++++++service_2+++++++++++++++++++++++*/
 
-/* service_3 */
+/*+++++++++++++++++++++++++++service_3+++++++++++++++++++++++*/
 
 #service_3
 {
@@ -245,6 +277,8 @@ header .phone span:last-child
 	width: 50%;
 	height: 570px;
 }
+
+/*++++++++++++++++++++I tried+++++++++++++++++*/
 
 #service_3 .photo-show 
 {
@@ -300,14 +334,13 @@ header .phone span:last-child
 	width: 195px;
 	height: 50px;
 	border: 1px solid #74452b;
-	background-color: #fff;
 	margin-top: 30px;
 	font-size: 18px
 }
 
-/* service_3 */
+/*+++++++++++++++++++++service_3++++++++++++++++++++++++++*/
 
-/* service_4 */
+/*+++++++++++++++++++++service_4+++++++++++++++++++++++++*/
 
 #service_4
 {
@@ -381,9 +414,9 @@ header .phone span:last-child
 	bottom:163px;
 }
 
-/* service_4 */
+/*++++++++++++++++++++++service_4+++++++++++++++++++++++++*/
 
-/* service_5 */
+/*+++++++++++++++++++++++service_5++++++++++++++++++++++++*/
 #service_5
 {
 	/* background-color: red; */
@@ -422,7 +455,7 @@ header .phone span:last-child
 	margin-bottom: 20px
 }
 
-/* options_tables */
+/*++++++++++++++++++options_tables++++++++++++++++++++++++*/
 
 #service_5 .table-div .tab_div .text_massagia
 {
@@ -479,9 +512,9 @@ header .phone span:last-child
 }
 
 
-/* service_5 */
+/*++++++++++++++++++++++++service_5++++++++++++++++++++++++*/
 
-/* service_6 */
+/*+++++++++++++++++++++++++service_6+++++++++++++++++++++++*/
 
 #service_6
 {
@@ -520,14 +553,13 @@ header .phone span:last-child
 	width: 195px;
 	height: 50px;
 	border: 1px solid #74452b;
-	background-color: #fff;
 	margin-top: 30px;
 	font-size: 18px
 }
 
-/* service_6 */
+/*++++++++++++++++++++++++service_6+++++++++++++++++++++++++*/
 
-/* service_7 */
+/*++++++++++++++++++++++++service_7+++++++++++++++++++++++++*/
 
 #service_7
 {
@@ -614,7 +646,6 @@ header .phone span:last-child
 	width: 195px;
 	height: 50px;
 	border: 1px solid #74452b;
-	background-color: #fff;
 	margin-top: 69px;
 	font-size: 18px
 }
@@ -622,7 +653,7 @@ header .phone span:last-child
 
 
 
-/* service_7 */
+/*++++++++++++++++++++++++service_7+++++++++++++++++++++++*/
 
 footer
 {
@@ -741,13 +772,19 @@ footer .phone span:last-child
 	margin-left: 20px
 }
 
+button
+{
+	background-color:white;
+}
 
+button:hover
+{
+	background-color:#74452b;
+	color:#fff;
+	transition: all 0.5s ease;
+}
 
-/* Галочка */
-
-
-
-/* fon img */
+/*+++++++++++++++++++++++++for img file+++++++++++++++++++++++*/
 
 /* service_2 */
 
@@ -769,7 +806,7 @@ footer .phone span:last-child
 	left:-350px
 }
 
-/* service_3 */
+/*+++++++++++++++++++++++service_3+++++++++++++++++++++++++++*/
 
 .container_jump_2
 {
@@ -791,7 +828,7 @@ footer .phone span:last-child
 }
 
 
-/* service_4 */
+/*+++++++++++++++++++++++service_4+++++++++++++++++++++++++++*/
 
 .container_jump_3
 {
@@ -832,3 +869,6 @@ footer .phone span:last-child
 	right: -150px;
 	top:-20px
 }
+
+
+/* END =) */

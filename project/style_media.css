@@ -39,6 +39,7 @@
 	header
 	{
 		/* background-color: orange */
+		/* I left you parametr , maby you need :); */
 	}
 
 	header .container
@@ -49,6 +50,7 @@
 	header .logo
 	{
 		/* background-color: red; */
+		/* I left you parametr , maby you need :); */
 		width:70%;
 		text-align: center;
 	}
@@ -76,6 +78,7 @@
 	header
 	{
 		/* background-color: orange; */
+		/* I left you parametr , maby you need :); */
 		height: 250px
 	}
 
@@ -87,6 +90,7 @@
 	header .logo
 	{
 		/* background-color: red; */
+		/* I left you parametr , maby you need :); */
 		width: 100%;
 		text-align: center;
 	}
@@ -94,6 +98,7 @@
 	header  .phone
 	{
 		/* background-color: black;*/
+		/* I left you parametr , maby you need :); */
 		width: 100%;
 		text-align: center;
 		float: left;
@@ -124,6 +129,7 @@
 		#service_1
 		{
 			/* background: red */
+			/* I left you parametr , maby you need :); */
 		}
 
 		#service_1 .container
@@ -138,11 +144,13 @@
 		#service_1 .text-room
 		{
 			/* background: blue */
+			/* I left you parametr , maby you need :); */
 		}
 
 		#service_1 .photo-room
 		{
 			/* background: green */
+			/* I left you parametr , maby you need :); */
 		}
 
 		#service_1 .photo-room img
@@ -164,6 +172,7 @@
 		#service_1
 		{
 			/*background: red; */
+			/* I left you parametr , maby you need :); */
 			height: 980px
 		}
 
@@ -185,6 +194,7 @@
 		#service_1 .text-room
 		{
 			/* background: blue; */
+			/* I left you parametr , maby you need :); */
 			float: left;
 			text-align: center;
 		}
@@ -192,6 +202,7 @@
 		#service_1 .photo-room
 		{
 			/* background: green; */
+			/* I left you parametr , maby you need :); */
 			float: left;
 			height: 450px
 		}
@@ -220,6 +231,7 @@
 		#service_1
 		{
 			/* background: red; */ 
+			/* I left you parametr , maby you need :); */
 			height: 960px
 		}
 
@@ -246,6 +258,7 @@
 		#service_1 .text-room
 		{
 			/* background: blue; */
+			/* I left you parametr , maby you need :); */
 			float: left;
 			text-align: right;
 		}
@@ -254,6 +267,7 @@
 		#service_1 .photo-room
 		{
 			/* background: green; */
+			/* I left you parametr , maby you need :); */
 			float: left;
 			height: 310px;
 		}
@@ -303,6 +317,7 @@
 	#service_1
 		{
 			/* background: red; */
+			/* I left you parametr , maby you need :); */
 			height: 950px
 		}
 
@@ -330,12 +345,14 @@
 		#service_1 .text-room
 		{
 			/*background: blue; */
+			/* I left you parametr , maby you need :); */
 			float: left;
 		}
 
 		#service_1 .photo-room
 		{
 			/* background: green; */ 
+			/* I left you parametr , maby you need :); */
 			float: left;
 			height: 240px;
 		}
@@ -513,6 +530,7 @@
 	#service_3
 	{
 		/* background: red; */
+		/* I left you parametr , maby you need :); */
 		height: 550px
 	}
 
@@ -529,6 +547,7 @@
 	#service_3 .photo-show 
 	{
 		 /* background: green */
+		 /* I left you parametr , maby you need :); */
 	}
 
 	#service_3 .photo-show img 
@@ -540,6 +559,7 @@
 	#service_3 .text-show
 	{
 		/* background: blue */
+		/* I left you parametr , maby you need :); */
 	}
 
 }
@@ -549,6 +569,7 @@
 	#service_3
 	{
 		/* background: blue; */
+		/* I left you parametr , maby you need :); */
 		height: 865px
 	}
 
@@ -568,6 +589,7 @@
 	#service_3 .text-show 
 	{
 		/* background: red; */
+		/* I left you parametr , maby you need :); */
 		width: 485px;
 		margin: 0 auto;
 		height: 431px;
@@ -581,6 +603,7 @@
 	#service_3 .photo-show
 	{
 		/* background: green; */
+		/* I left you parametr , maby you need :); */
 		width: 485px;
 		margin: 0 auto;
 		height: 431px
@@ -624,6 +647,7 @@
 	{
 		height: 710px;
 		/* background:red; */
+		/* I left you parametr , maby you need :); */
 	}
 
 	#service_3 .container
@@ -642,10 +666,12 @@
 	#service_3 .text-show 
 	{
 		/* background: red; */
+		/* I left you parametr , maby you need :); */
 		width: 329px;
 		margin: 0 auto;
 		height: 425px;
 		/* background: green */
+		/* I left you parametr , maby you need :); */
 	}
 
 	#service_3 .text-show h2
@@ -657,6 +683,7 @@
 	#service_3 .photo-show
 	{
 		/* background: blue; */
+		/* I left you parametr , maby you need :); */
 		width: 329px;
 		margin: 0 auto;
 		height: 285px
@@ -708,6 +735,7 @@
 	{
 		height: 730px;
 		/*background:red; */
+		/* I left you parametr , maby you need :); */
 	}
 
 	#service_3 .container
@@ -730,6 +758,7 @@
 		margin: 0 auto;
 		height: 438px;
 		/* background: green  */
+		/* I left you parametr , maby you need :); */
 	}
 
 	#service_3 .text-show h2
@@ -754,6 +783,7 @@
 	#service_3 .photo-show
 	{
 		/* background: blue; */
+		/* I left you parametr , maby you need :); */
 		width: 300px;
 		margin: 0 auto;
 		height: 222px
@@ -811,11 +841,13 @@
 	#service_4 
 	{
 		/* background: red; */
+		/* I left you parametr , maby you need :); */
 		height: 1050px
 	}
 	#service_4 .container
 	{
 		 /* background: black; */
+		 /* I left you parametr , maby you need :); */
 		 width: 700.5px;
 			margin: 0 auto
 	}
@@ -856,6 +888,7 @@
 	#service_4 
 	{
 		/* background: blue; */
+		/* I left you parametr , maby you need :); */
 		height: 1040px
 	}
 	#service_4 .container
@@ -878,12 +911,14 @@
 	#service_4 .girl_1
 	{
 		/* background: green; */
+		/* I left you parametr , maby you need :); */
 		float: right;
 	}
 
 	#service_4 .girl_2
 	{
 		/* background: blue; */
+		/* I left you parametr , maby you need :); */
 		float: right;
 		margin-top:80px;
 	}
@@ -907,6 +942,7 @@
 	#service_4 
 	{
 		/* background: red; */
+		/* I left you parametr , maby you need :); */
 		height: 900px
 	}
 	#service_4 .container
@@ -928,6 +964,7 @@
 		width: 290px;
 		/* background-color: green */
 		/* background-color: red; */
+		/* I left you parametr , maby you need :); */
 		padding-top: 380px;
 		position: relative;
 		padding-bottom: 20px;
@@ -937,6 +974,7 @@
 	#service_4 .girl_1
 	{
 		/* background: green; */
+		/* I left you parametr , maby you need :); */
 		float: right;
 
 	}
@@ -944,6 +982,7 @@
 	#service_4 .girl_2
 	{
 		/* background: blue; */
+		/* I left you parametr , maby you need :); */
 		float: right;
 		margin-top:40px;
 	}
@@ -968,8 +1007,11 @@
 	#service_4 .photo-girl 
 	{
 		display: none
+
 	}
 	*/
+	/* I left you parametr , maby you need :); */
+
 
 	#service_4 .text-girl 
 	{
@@ -1006,6 +1048,7 @@
 	#service_5
 	{
 	    /* background: red; */
+	    /* I left you parametr , maby you need :); */
 		height: 680px
 	}
 
@@ -1022,6 +1065,7 @@
 	#service_5 .table-div
 	{
 		/* background-color: orange; */
+		/* I left you parametr , maby you need :); */
 		width: 720px;
 		height:550px
 	}
@@ -1029,12 +1073,14 @@
 	#service_5 .table-div .tab_div
 	{
 		/* background-color: purple; */
+		/* I left you parametr , maby you need :); */
 		width:315px; 
 		margin-left: 24px
 	}
 	#service_5 .table-div .tab_div .text_massagia
 	{
 		/* background-color: purple; */
+		/* I left you parametr , maby you need :); */
 		font-size: 16.5px
 	}
 
@@ -1079,6 +1125,7 @@
 	#service_5
 	{
 	   /* background: red; */
+	   /* I left you parametr , maby you need :); */
 		height: 1200px
 	}
 
@@ -1095,6 +1142,7 @@
 	#service_5 .table-div
 	{
 		/* background-color: orange; */
+		/* I left you parametr , maby you need :); */
 		width: 410px;
 		height:550px
 	}
@@ -1102,6 +1150,7 @@
 	#service_5 .table-div .tab_div
 	{
 		/* background-color: purple; */
+		/* I left you parametr , maby you need :); */
 		width:355px; 
 		margin-left: 24px
 	}
@@ -1133,6 +1182,7 @@
 	#service_5
 	{
 	  /*  background: red; */
+	  /* I left you parametr , maby you need :); */
 		height: 1220px
 	}
 
@@ -1151,6 +1201,7 @@
 	#service_5 .table-div
 	{
 		/* background-color: orange; */
+		/* I left you parametr , maby you need :); */
 		width: 300px;
 		height:1050px
 	}
@@ -1158,6 +1209,7 @@
 	#service_5 .table-div .tab_div
 	{
 		/* background-color: purple; */
+		/* I left you parametr , maby you need :); */
 		width:299px; 
 		margin-left: 0px
 	}
@@ -1185,6 +1237,7 @@
 	#service_5 .table-div .tab_div .text_massagia
 	{
 		/* background-color: purple; */
+		/* I left you parametr , maby you need :); */
 		font-size: 15.5px
 	}
 
@@ -1202,12 +1255,14 @@
 	{
 		height: 185px;
 		/* background-color: red */
+		/* I left you parametr , maby you need :); */
 	}
 
 	#service_6 .container
 	{
 		width: 505px;
 		/* background-color: black; */
+		/* I left you parametr , maby you need :); */
 		text-align: center;
 	}
 
@@ -1231,12 +1286,14 @@
 	{
 		height: 175px;
 		/* background-color: red; */
+		/* I left you parametr , maby you need :); */
 	}
 
 	#service_6 .container
 	{
 		width: 410px;
 		/* background-color: black; */
+		/* I left you parametr , maby you need :); */
 		text-align: center;
 	}
 
@@ -1272,12 +1329,14 @@
 	{
 		height: 175px;
 		/* background-color: red; */
+		/* I left you parametr , maby you need :); */
 	}
 
 	#service_6 .container
 	{
 		width: 300px;
 		/* background-color: black; */ 
+		/* I left you parametr , maby you need :); */
 		text-align: center;
 	}
 
@@ -1346,6 +1405,7 @@
 		#service_7
 		{
 			/* background: red; */
+			/* I left you parametr , maby you need :); */
 			 height: 550px;
 		}
 
@@ -1365,6 +1425,7 @@
 		#service_7 .programm_lo
 		{
 			/* background: blue */
+			/* I left you parametr , maby you need :); */
 		}
 
 		#service_7 .programm_lo img
@@ -1375,6 +1436,7 @@
 		#service_7 .text_lo
 		{
 			/* background: green ; */
+			/* I left you parametr , maby you need :); */
 		}
 
 		#service_7 .text_lo p
@@ -1430,6 +1492,7 @@
 		#service_7
 		{
 			/* background: red; */
+			/* I left you parametr , maby you need :); */
 			height: 980px
 		}
 
@@ -1451,6 +1514,7 @@
 		#service_7 .text_lo
 		{
 			/* background: blue; */
+			/* I left you parametr , maby you need :); */
 			float: left;
 			text-align: center;
 		}
@@ -1458,6 +1522,7 @@
 		#service_7 .programm_lo
 		{
 			/* background: green; */
+			/* I left you parametr , maby you need :); */
 			float: left;
 			height: 450px
 		}
@@ -1476,6 +1541,7 @@
 		#service_7 .text_lo .box_percentages
 		{
 			/* background-color: red; */
+			/* I left you parametr , maby you need :); */
 			margin:0 auto;
 			text-align: left;
 			text-align: center;
@@ -1506,6 +1572,7 @@
 	#service_7
 		{
 			/* background: red; */
+			/* I left you parametr , maby you need :); */
 			height: 980px
 		}
 
@@ -1527,6 +1594,7 @@
 		#service_7 .text_lo
 		{
 			/* background: blue;*/
+			/* I left you parametr , maby you need :); */
 			float: left;
 			text-align: center;
 			height: 600px
@@ -1535,6 +1603,7 @@
 		#service_7 .programm_lo
 		{
 			/* background: green; */
+			/* I left you parametr , maby you need :); */
 			float: left;
 			height: 350px
 		}
@@ -1553,6 +1622,7 @@
 		#service_7 .text_lo .box_percentages
 		{
 		   /* background-color: orange; */
+		   /* I left you parametr , maby you need :); */
 			margin:0 auto;
 			text-align: left;
 			text-align: center;
@@ -1585,6 +1655,7 @@
 	#service_7
 		{
 			/* background: red; */ 
+			/* I left you parametr , maby you need :); */
 			height: 980px
 		}
 
@@ -1606,6 +1677,7 @@
 		#service_7 .text_lo
 		{
 			/* background: blue; */
+			/* I left you parametr , maby you need :); */
 			float: left;
 			text-align: center;
 			height: 690px
