@@ -51,7 +51,7 @@
 							</div>
 						</div>
 						<div class = "photo-room">
-							<img src = "img/relax_men.png">
+							<img src = "img/relax_men.jpg">
 						</div>
 					</div>
 				</div>
@@ -81,7 +81,7 @@
 				<div class = "container">
 					<div class = "container_jump_2">
 					<div class = "photo-show left">
-						<img src = "img/relax_show.png"/>
+						<img src = "img/relax_show.jpg"/>
 							</div>
 								<div class = "text-show right">
 									<div class = 'jump_left'>
@@ -312,7 +312,7 @@
 			<div class = "clear" id = "service_7">
 				<div class = "container">
 					<div class = "programm_lo left">
-						<img src = "img/relax_spa.png">
+						<img src = "img/relax_spa.jpg">
 					</div>
 					<div class = "text_lo right">
 						<div class = 'jump-left'>
@@ -357,34 +357,53 @@
 		</div>
 		<script>
 			
+
+			//I did not use the class because there is little code
+
 			if(document.body.clientWidth > 1171)
 			{
+
+				// create variable
 			var girl = document.querySelector('.girl_1');
-				girl.onmouseover = function()
-				{
-					var gra_img = document.querySelector('.girl_1 .photo-girl img');
-					gra_img.style.filter = ' grayscale(0%)';
-					gra_img.style.transition = 'all 0.5s ease';
-				}
-				girl.onmouseout = function()
-				{
-					var gra_img = document.querySelector('.girl_1 .photo-girl img');
-					gra_img.style.filter = ' grayscale(100%)';
-					gra_img.style.transition = 'all 0.5s ease';
-				}
-		var girl = document.querySelector('.girl_2');
-				girl.onmouseover = function()
-				{
-					var gra_img = document.querySelector('.girl_2 .photo-girl img');
-					gra_img.style.filter = ' grayscale(0%)';
-					gra_img.style.transition = 'all 0.5s ease';
-				}
-				girl.onmouseout = function()
-				{
-					var gra_img = document.querySelector('.girl_2 .photo-girl img');
-					gra_img.style.filter = ' grayscale(100%)';
-					gra_img.style.transition = 'all 0.5s ease';
-				}
+			var girl2 = document.querySelector('.girl_2');
+
+
+				// function for addEventListener
+				girl.addEventListener("mouseover", hover);
+				girl.addEventListener("mouseout", hover_no);
+
+				girl2.addEventListener("mouseover", hover_2);
+				girl2.addEventListener("mouseout", hover_no_2);
+
+						//function for addEventListener
+						function hover()
+						{
+							var gra_img = document.querySelector('.girl_1 .photo-girl img');
+							gra_img.style.filter = ' grayscale(0%)';
+							gra_img.style.transition = 'all 0.5s ease';	
+						}
+
+						function hover_no()
+						{
+							var gra_img = document.querySelector('.girl_1 .photo-girl img');
+							gra_img.style.filter = ' grayscale(100%)';
+							gra_img.style.transition = 'all 0.5s ease';
+						}
+				
+						function hover_2()
+						{
+								var gra_img = document.querySelector('.girl_2 .photo-girl img');
+								gra_img.style.filter = ' grayscale(0%)';
+								gra_img.style.transition = 'all 0.5s ease';
+						}
+
+						function hover_no_2()
+						{
+								var gra_img = document.querySelector('.girl_2 .photo-girl img');
+								gra_img.style.filter = ' grayscale(100%)';
+								gra_img.style.transition = 'all 0.5s ease';
+						}
+
 			}
 			else
 			{
@@ -393,6 +412,7 @@
 				var gra_img = document.querySelector('.girl_2 .photo-girl img');
 					gra_img.style.filter = ' grayscale(0%)';	
 			}
+
 		</script>
 		<script src="https://use.fontawesome.com/127043bbae.js"></script>
 	</body>
