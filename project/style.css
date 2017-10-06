@@ -115,11 +115,27 @@ header img:last-child
 	margin-right:0px;
 }
 
+
 .logo
 {
 	float: left;
 	height: 140px
 }
+
+header .logo a i
+{
+	color:#a1b1bc;
+	font-size: 32px
+}
+
+header .logo a i:hover
+{
+	color:#74452b;
+	font-size: 32px;
+	transition: all 0.5s ease;
+}
+
+
 /* phone */
 
 header .phone
@@ -688,6 +704,20 @@ footer img:last-child
 {
 	float: left;
 	height: 140px
+}
+
+
+footer .logo a i
+{
+	color:#a1b1bc;
+	font-size: 32px
+}
+
+footer .logo a i:hover
+{
+	color:#74452b;
+	font-size: 32px;
+	transition: all 0.5s ease;
 }
 /* phone */
 
